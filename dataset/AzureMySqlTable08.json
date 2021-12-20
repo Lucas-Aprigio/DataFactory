@@ -1,0 +1,23 @@
+{
+	"name": "AzureMySqlTable08",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureMySqlSakilaLucas",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"tableName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureMySqlTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": {
+				"value": "@dataset().tableName",
+				"type": "Expression"
+			}
+		}
+	}
+}
