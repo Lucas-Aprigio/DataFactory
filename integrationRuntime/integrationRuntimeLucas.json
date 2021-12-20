@@ -1,0 +1,6 @@
+{
+	"name": "integrationRuntimeLucas",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
